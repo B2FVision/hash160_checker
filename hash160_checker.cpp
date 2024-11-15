@@ -80,9 +80,9 @@ void process_range(uint64_t start_range, uint64_t end_range, const std::string &
 }
 
 int main() {
-    uint64_t start_range = 0x800000;
-    uint64_t end_range = 0xffffff;
-    const std::string target_hash = "0959e80121f36aea13b3bad361c15dac26189e2f";
+    uint64_t start_range = 0x40000000000000000;
+    uint64_t end_range = 0xffffffffffffffff;
+    const std::string target_hash = "739437bb3dd6d1983e66629c5f08c70e52769371";
 
     std::atomic<bool> found(false);
     std::atomic<uint64_t> keys_checked(0);
