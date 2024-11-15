@@ -1,6 +1,6 @@
-# Hash160 Checker
+# Hash160 Checker PUZZLE#67
 
-Este programa verifica chaves privadas dentro de um intervalo, calcula o Hash160 de suas respectivas chaves públicas comprimidas e encontra uma chave alvo.
+Este programa verifica chaves privadas dentro de um intervalo, calcula o Hash160 de suas respectivas chaves públicas comprimidas e encontra uma chave alvo. Está ajustado para procurar a chave do Puzzle#67
 
 ## Requisitos
 
