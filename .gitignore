@@ -1,32 +1,22 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Ignore arquivos binários
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
+*.exe
+hash160_checker
+
+# Ignore pastas de build
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignore logs e outros arquivos gerados
+*.log
+*.tmp
+
+# Ignore configurações de IDEs
+.idea/
+.vscode/
